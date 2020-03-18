@@ -67,6 +67,9 @@ jobs:
         chmod +x $DIY_SH
         cd openwrt
         ../$DIY_SH
+        cat >> .config <<EOF
+        CONFIG_TARGET_IMAGES_GZIP=y
+        EOF
     - name: SSH connection to Actions
       uses: P3TERX/debugger-action@master
       if: env.SSH_ACTIONS == 'true'
