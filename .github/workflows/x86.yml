@@ -24,7 +24,7 @@ on:
 env:
   REPO_URL: https://github.com/bihcou1/7800lienol
   REPO_BRANCH: dev-master
-  CONFIG_FILE: .config
+  CONFIG_FILE: x86.config
   DIY_SH: diy.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
