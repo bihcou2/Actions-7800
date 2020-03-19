@@ -22,7 +22,7 @@ on:
 #    types: started
 
 env:
-  REPO_URL: https://github.com/bihcou1/7800lienol
+  REPO_URL: https://github.com/bihcou1/ledex86
   REPO_BRANCH: dev-master
   CONFIG_FILE: x86.config
   DIY_SH: diy.sh
