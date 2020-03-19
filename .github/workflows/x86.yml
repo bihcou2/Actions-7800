@@ -23,7 +23,7 @@ on:
 
 env:
   REPO_URL: https://github.com/bihcou1/ledex86
-  REPO_BRANCH: dev-master
+  REPO_BRANCH: master
   CONFIG_FILE: x86.config
   DIY_SH: diy.sh
   SSH_ACTIONS: false
