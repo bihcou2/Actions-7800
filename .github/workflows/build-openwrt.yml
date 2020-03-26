@@ -15,16 +15,16 @@ on:
     branches:
       - master
     paths:
-      - '.config'
+      - 'x86.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
 #    types: started
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/aK2p/lienolx86
   REPO_BRANCH: master
-  CONFIG_FILE: .config
+  CONFIG_FILE: x86.config
   DIY_SH: diy.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
