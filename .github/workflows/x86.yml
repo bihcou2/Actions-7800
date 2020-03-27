@@ -67,7 +67,6 @@ jobs:
         chmod +x $DIY_SH
         cd openwrt
         ../$DIY_SH
-    
     - name: SSH connection to Actions
       uses: P3TERX/debugger-action@master
       if: env.SSH_ACTIONS == 'true'
@@ -85,7 +84,7 @@ jobs:
       run: |
         cd openwrt
         echo -e "$(nproc) thread compile"
-        make -j$(nproc) || make -j2 V=s
+        make -j$(nproc) || make -j1 V=s
         echo "::set-output name=status::success"
     - name: Upload bin directory
       uses: actions/upload-artifact@master
@@ -94,7 +93,7 @@ jobs:
         name: OpenWrt_bin
         path: openwrt/bin
 
-   - name: Assemble artifact
+    - name: Assemble artifact
       run: |
           rm -rf ./artifact/
           mkdir -p ./artifact/
