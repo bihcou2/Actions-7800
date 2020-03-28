@@ -22,7 +22,7 @@ on:
 #    types: started
 
 env:
-  REPO_URL: https://github.com/aK2p/lienolx86
+  REPO_URL: https://github.com/Lienol/openwrt/
   REPO_BRANCH: dev-master
   CONFIG_FILE: x86.config
   DIY_SH: diy.sh
