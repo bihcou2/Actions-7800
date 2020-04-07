@@ -15,16 +15,16 @@ on:
     branches:
       - master
     paths:
-      - '.config'
+      - 'x86lean.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
 #    types: started
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/bihcou1/ledex86
   REPO_BRANCH: master
-  CONFIG_FILE: .config
+  CONFIG_FILE: x86lean.config
   DIY_SH: diy.sh
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
@@ -106,7 +106,7 @@ jobs:
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: OpenWrt_firmware
+        name: OpenWrt_firmwarex86lean
         path: ${{ env.FIRMWARE }}
 
     - name: Upload firmware to cowtransfer
