@@ -16,4 +16,4 @@
 git clone https://github.com/Leo-Jo-My/luci-theme-opentomato package/theme
 git clone https://github.com/Leo-Jo-My/luci-theme-Butterfly-dark package/theme-dark
 git clone https://github.com/Leo-Jo-My/luci-theme-Butterfly package/theme1
-git clone https://github.com/Leo-Jo-My/luci-theme-Butterfly package/istore https://github.com/linkease/istore
+git clone https://github.com/linkease/istore package/istore 
