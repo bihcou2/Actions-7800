@@ -22,7 +22,7 @@ on:
     - cron: 0 8 * * *
 
 env:
-  REPO_URL: https://github.com/bihcou1/ledex86
+  REPO_URL: https://github.com/bihcou2/ledex86
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: x86lean.config
