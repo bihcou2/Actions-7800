@@ -11,10 +11,4 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# Add a feed source
-#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-git clone https://github.com/Leo-Jo-My/luci-theme-opentomato package/theme
-git clone https://github.com/Leo-Jo-My/luci-theme-Butterfly-dark package/theme-dark
-git clone https://github.com/Leo-Jo-My/luci-theme-Butterfly package/theme1
-git clone https://github.com/linkease/istore/ package/istore 
-git clone https://github.com/linkease/istore-ui package/istore-ui
+sed -i 's/xiaorouji/bihcou1/g' feeds.conf.default
